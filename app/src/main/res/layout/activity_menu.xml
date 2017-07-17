@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.siddik.soccersimulator.MenuActivity">
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/white"/>
+        <TextView
+            android:onClick="goTeams"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:textSize="30sp"
+            android:layout_centerInParent="true"
+            android:text="Teams"
+            android:gravity="center"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/white"/>
+
+        <TextView
+            android:onClick="goField"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:textSize="30sp"
+            android:layout_centerInParent="true"
+            android:text="Field"
+            android:gravity="center"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/white"/>
+        <TextView
+            android:onClick="goService"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:textSize="30sp"
+            android:layout_centerInParent="true"
+            android:text="Goal Service"
+            android:gravity="center"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/white"/>
+
+
+
+</LinearLayout>
